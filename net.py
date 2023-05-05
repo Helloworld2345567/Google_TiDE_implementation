@@ -1,3 +1,5 @@
+## net_framework code example is from https://zhuanlan.zhihu.com/p/624828590
+# i just copy
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
