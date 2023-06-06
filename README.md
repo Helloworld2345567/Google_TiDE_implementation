@@ -3,6 +3,7 @@ An unoffical pytorch implementation of (Google）Long-term Time Series Forecasti
 Link to paper: [Long-term Forecasting with TiDE: Time-series Dense Encoder](https://arxiv.org/pdf/2304.08424.pdf) \
 Official implemention:(https://github.com/google-research/google-research/tree/master/tide)
 ## Data Pre-process
+[[Dataset](https://huggingface.co/datasets/ym0v0my/Time_series_dataset/resolve/main/all_six_datasets.zip)]
 ### Patching 
 The core idea of this data pre-process is Patching, which is similar to PatchTST and many other time series forcasting jobs. Specifically, they both divide the time series into a number of time segments, each of which is considered a token .
 
