@@ -13,15 +13,17 @@ In contrast to PatchTST and some MLP-based forecasting models, it makes use not 
 ![net](./figs/net_framework.jpg)
 The overall architecture of the TiDE model is shown in the diagram above. Like PatchTST, it assumes that the channels are independent. This means that multivariate forecasting is transformed into multiple univariate forecasts with shared model parameters.
 
-In the last hyperparameters table of Paper, each dataset has a different network structure, I tried other network structures also have strong generalisation, Maybe not so SOTA. (Author for a SOTA result is easy understanding)
+In the last hyperparameters table of Paper, each dataset has a different network structure, I tried other network structures also have strong generalisation, Maybe not so SOTA. 
 ## Metric Result
 ![metric](./figs/Metric.png)
 ### My Result
-![result](./figs/result.png) 
-![Traffic_MSE.jpg](./figs/Traffic_MSE.jpg)  
-![Traffic_MAE.jpg](./figs/Traffic_MAE.jpg) 
-![Traffic_val_curve_720.jpg](./figs/Traffic_val_curve_720.jpg)  
-![Traffic_val_curve_96.jpg](./figs/Traffic_val_curve_96.jpg) 
+#### MSE and MAE
+<img src="./figs/result.png" alt="result" style="width:36%" /> 
+
+<img src="./figs/Traffic_MSE.jpg" alt="result" style="width:45%" /> <img src="./figs/Traffic_MAE.jpg" alt="result" style="width:45%" /> 
+#### Val Curve
+<img src="./figs/Traffic_val_curve_720.jpg" alt="result" style="width:45%" /> <img src="./figs/Traffic_val_curve_96.jpg" alt="result" style="width:45%" /> 
+
 ## Summary
 Our study shows that self-attention might not be necessary to learn the periodicity and trend patterns at least for these long-term forecasting benchmarks.
 ### Reference:
