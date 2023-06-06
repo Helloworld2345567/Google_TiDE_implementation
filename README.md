@@ -17,16 +17,27 @@ In the last hyperparameters table of Paper, each dataset has a different network
 ## Metric Result
 ![metric](./figs/Metric.png)
 ### My Result
-#### MSE and MAE
+#### MSE and MAE Table
 <img src="./figs/result.png" alt="result" style="width:36%" /> 
 
+#### Traffic MSE and MAE (traget)
 <img src="./figs/Traffic_MSE.jpg" alt="result" style="width:45%" /> <img src="./figs/Traffic_MAE.jpg" alt="result" style="width:45%" /> 
-#### Val Curve
+
+#### Traffic Val Curve
+**Predict 720 steps and 96 steps (after data scale transform)**
+
 <img src="./figs/Traffic_val_curve_720.jpg" alt="result" style="width:45%" /> <img src="./figs/Traffic_val_curve_96.jpg" alt="result" style="width:45%" /> 
 
 ## Summary
-Our study shows that self-attention might not be necessary to learn the periodicity and trend patterns at least for these long-term forecasting benchmarks.
-### Reference:
+
+With about the same performance as PatchTST, TiDE is very efficient. As shown below, both inference and training times are very fast, and the space complexity is low enough to handle very long sequences without out of memory (only use a T4 GPU).
+
+<img src="./figs/efficiency.png" alt="result" style="width:100%" /> 
+
+### Last
+This study shows that self-attention might not be necessary to learn the periodicity and trend patterns at least for these long-term forecasting benchmarks.
+
+## Reference:
 [https://github.com/google-research/google-research/tree/master/tide]( https://github.com/google-research/google-research/tree/master/tide) 
 
 [https://github.com/yuqinie98/PatchTST]( https://github.com/yuqinie98/PatchTST) 
