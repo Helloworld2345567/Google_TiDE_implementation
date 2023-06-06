@@ -1,0 +1,23 @@
+{
+    "name": "TiDE",
+    "print_tofile": "False",
+    "datadir": "/root/data1/ym/google_tide/TiDE/data",
+    "ckpt_path": "/root/data1/ym/google_tide/TiDE/result/dataset_illness",
+    "save_path": "/root/data1/ym/google_tide/TiDE/result/dataset_illness",
+    "cuda": "True",
+    "dataset": "illness",
+    "lookback_len": 54,
+    "pred_len": 4,
+    "feat_size": 2,
+    "batch_size": 16,
+    "epoch": 100,
+    "hidden_size": 128,
+    "num_encoder_layers": 1,
+    "num_decoder_layers": 1,
+    "decoder_output_dim": 8,
+    "temporal_decoder_hidden": 16,
+    "layer_norm": "True",
+    "revin": "False",
+    "drop_prob": 0.3,
+    "lr": 0.000382
+}

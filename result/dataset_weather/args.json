@@ -1,0 +1,23 @@
+{
+    "name": "TiDE",
+    "print_tofile": "False",
+    "datadir": "/root/data1/ym/google_tide/TiDE/data",
+    "ckpt_path": "/root/data1/ym/google_tide/TiDE/result/dataset_weather",
+    "save_path": "/root/data1/ym/google_tide/TiDE/result/dataset_weather",
+    "cuda": "True",
+    "dataset": "weather",
+    "lookback_len": 720,
+    "pred_len": 96,
+    "feat_size": 2,
+    "batch_size": 512,
+    "epoch": 100,
+    "hidden_size": 512,
+    "num_encoder_layers": 1,
+    "num_decoder_layers": 1,
+    "decoder_output_dim": 8,
+    "temporal_decoder_hidden": 16,
+    "layer_norm": "True",
+    "revin": "False",
+    "drop_prob": 0.0,
+    "lr": 3e-05
+}

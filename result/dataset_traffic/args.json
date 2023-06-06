@@ -1,0 +1,23 @@
+{
+    "name": "TiDE",
+    "print_tofile": "False",
+    "datadir": "/root/data1/ym/google_tide/TiDE/data",
+    "ckpt_path": "/root/data1/ym/google_tide/TiDE/result/dataset_traffic",
+    "save_path": "/root/data1/ym/google_tide/TiDE/result/dataset_traffic",
+    "cuda": "True",
+    "dataset": "traffic",
+    "lookback_len": 720,
+    "pred_len": 96,
+    "feat_size": 2,
+    "batch_size": 128,
+    "epoch": 100,
+    "hidden_size": 256,
+    "num_encoder_layers": 1,
+    "num_decoder_layers": 1,
+    "decoder_output_dim": 16,
+    "temporal_decoder_hidden": 64,
+    "layer_norm": "False",
+    "revin": "True",
+    "drop_prob": 0.3,
+    "lr": 0.0001
+}

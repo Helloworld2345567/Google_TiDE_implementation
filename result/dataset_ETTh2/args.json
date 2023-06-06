@@ -1,0 +1,23 @@
+{
+    "name": "TiDE",
+    "print_tofile": "False",
+    "datadir": "/root/data1/ym/google_tide/TiDE/data",
+    "ckpt_path": "/root/data1/ym/google_tide/TiDE/result/dataset_ETTh2",
+    "save_path": "/root/data1/ym/google_tide/TiDE/result/dataset_ETTh2",
+    "cuda": "True",
+    "dataset": "ETTh2",
+    "lookback_len": 720,
+    "pred_len": 96,
+    "feat_size": 2,
+    "batch_size": 512,
+    "epoch": 100,
+    "hidden_size": 256,
+    "num_encoder_layers": 2,
+    "num_decoder_layers": 2,
+    "decoder_output_dim": 32,
+    "temporal_decoder_hidden": 128,
+    "layer_norm": "True",
+    "revin": "True",
+    "drop_prob": 0.2,
+    "lr": 0.0001
+}

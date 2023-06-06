@@ -1,0 +1,23 @@
+{
+    "name": "TiDE",
+    "print_tofile": "False",
+    "datadir": "/root/data1/ym/google_tide/TiDE/data",
+    "ckpt_path": "/root/data1/ym/google_tide/TiDE/result/dataset_exchange_rate",
+    "save_path": "/root/data1/ym/google_tide/TiDE/result/dataset_exchange_rate",
+    "cuda": "True",
+    "dataset": "exchange_rate",
+    "lookback_len": 720,
+    "pred_len": 96,
+    "feat_size": 2,
+    "batch_size": 32,
+    "epoch": 100,
+    "hidden_size": 256,
+    "num_encoder_layers": 2,
+    "num_decoder_layers": 2,
+    "decoder_output_dim": 8,
+    "temporal_decoder_hidden": 128,
+    "layer_norm": "True",
+    "revin": "True",
+    "drop_prob": 0.3,
+    "lr": 3.82e-05
+}

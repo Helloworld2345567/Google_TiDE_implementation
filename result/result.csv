@@ -1,0 +1,10 @@
+Dataset,Lookback,MSE,MAE
+ETTh1,720,0.460,0.469
+traffic,720,0.383,0.278
+electricity,720,0.150,0.252
+illness,54,1.152,0.648
+exchange,720,0.248,0.369
+weather,720,0.193,0.253
+ETTh2,720,0.416,0.451
+ETTm1,720,0.364,0.406
+ETTm2,720,0.313,0.387
