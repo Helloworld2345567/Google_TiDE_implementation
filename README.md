@@ -14,7 +14,7 @@ In contrast to PatchTST and some MLP-based forecasting models, it makes use not 
 ![net](./figs/net_framework.jpg)
 The overall architecture of the TiDE model is shown in the diagram above. Like PatchTST, it assumes that the channels are independent. This means that multivariate forecasting is transformed into multiple univariate forecasts with shared model parameters.
 
-In the last hyperparameters table of Paper, each dataset has a liitle different network structure, I tried some other network structures also have strong generalisation, Maybe not so SOTA. 
+In the last hyperparameters table of Paper, each dataset has a liitle different network structure, I tried some other network structures also have not bad generalisation, Maybe not so SOTA. 
 ## Metric Result
 ![metric](./figs/Metric.png)
 ### My Result
