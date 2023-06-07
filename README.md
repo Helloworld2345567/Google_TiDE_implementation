@@ -19,7 +19,7 @@ In the last hyperparameters table of Paper, each dataset has a liitle different 
 ![metric](./figs/Metric.png)
 ### My Result
 #### MSE and MAE Table
-<img src="./figs/result.png" alt="result" style="width:45%" /> 
+<img src="./figs/result1.png" alt="result" style="width:45%" /> 
 
 #### Traffic MSE and MAE (traget)
 <img src="./figs/Traffic_MSE.jpg" alt="result" style="width:45%" /> <img src="./figs/Traffic_MAE.jpg" alt="result" style="width:45%" /> 
