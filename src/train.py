@@ -20,7 +20,7 @@ def save_args_to_file(args, output_file_path):
         
 def Dataset(args):
     print('loading the training data...')
-    size=[args.lookback_len+args.pred_len,args.lookback_len,args.pred_len]
+    size=[args.lookback_len,args.lookback_len,args.pred_len]
     
     if(args.dataset=='ETTh1' or args.dataset=='ETTh2'):
         ETdir = os.path.join(args.datadir, 'ETDataset', 'ETT-small')
