@@ -21,7 +21,7 @@ In the last hyperparameters table of Paper, each dataset has a little different 
 #### MSE and MAE Table  (Predict all chanel)
 <img src="./figs/result1.png" alt="result" style="width:45%" /> 
 
-The result wasn't quite SOTA, but it wasn't bad either
+The result wasn't quite SOTA.
 
 #### Traffic MSE and MAE (traget)
 <img src="./figs/Traffic_MSE.jpg" alt="result" style="width:45%" /> <img src="./figs/Traffic_MAE.jpg" alt="result" style="width:45%" /> 
