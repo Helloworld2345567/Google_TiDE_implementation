@@ -1,3 +1,15 @@
+# Table of Contents:
+- [Google TiDE implementation](#google_tide_implementation)
+  * [Data Pre-process](#data-pre-process)
+    + [Patching ](#patching)
+  * [Net Framework](#net-framework)
+  * [Metric Result](#metric-result)
+    + [My Result](#my-result)
+      - [MSE and MAE Table](#mse-and-mae-table)
+      - [Traffic MSE and MAE](#traffic-mse-and-mae)
+      - [Traffic Val Curve](#traffic-val-curve)
+  * [Summary](#summary)
+  * [Reference](#reference)
 # Google_TiDE_implementation
 An unoffical pytorch implementation of (Google）Long-term Time Series Forecasting with TiDE: Time-series Dense Encoder \
 Link to paper: [Long-term Forecasting with TiDE: Time-series Dense Encoder](https://arxiv.org/pdf/2304.08424.pdf) \
@@ -18,7 +30,9 @@ In the last hyperparameters table of Paper, each dataset has a little different 
 ## Metric Result
 ![metric](./figs/Metric.png)
 ### My Result
-#### MSE and MAE Table  (Predict all chanel)
+#### MSE and MAE Table 
+*Predict all chanel*
+
 <img src="./figs/result1.png" alt="result" style="width:45%" /> 
 
 The result wasn't quite SOTA.
@@ -40,7 +54,7 @@ With about the same performance as PatchTST, TiDE is very efficient. As shown be
 ### Last
 This study shows that self-attention might not be necessary to learn the periodicity and trend patterns at least for these long-term forecasting benchmarks.
 
-## Reference:
+## Reference
 [https://github.com/google-research/google-research/tree/master/tide]( https://github.com/google-research/google-research/tree/master/tide) 
 
 [https://github.com/yuqinie98/PatchTST]( https://github.com/yuqinie98/PatchTST) 
