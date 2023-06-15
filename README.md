@@ -7,7 +7,7 @@ Official implemention:(https://github.com/google-research/google-research/tree/m
 ### Patching 
 The core idea of this data pre-process is Patching, which is similar to PatchTST and many other time series forcasting jobs. Specifically, they both divide the time series into a number of time segments, each of which is considered a token .
 
-In contrast to PatchTST and some MLP-based forecasting models, it makes use not only of past series values (LookBack) but also of information on covariates such as static covariates (Attributes, No change in relative time) and dynamic covariates (Dynamic Covariates minute of the hour, hour of the day, day of the week etc) that are known at any point in time(Like holiday, hour, day etc).
+In contrast to PatchTST and some MLP-based forecasting models, it makes use not only of past series values (LookBack) but also of information on covariates such as static covariates (Attributes, No change in relative time,use the ID of time-series usually.) and dynamic covariates (Dynamic Covariates minute of the hour, hour of the day, day of the week etc) that are known at any point in time(Like holiday, hour, day etc).
 ![structure](./figs/data_structure.png) 
 
 ## Net Framework
