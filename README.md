@@ -23,11 +23,11 @@ In the last hyperparameters table of Paper, each dataset has a little different 
 
 The result wasn't quite SOTA.
 
-#### Traffic MSE and MAE (traget)
+#### Traffic MSE and MAE 
 <img src="./figs/Traffic_MSE.jpg" alt="result" style="width:45%" /> <img src="./figs/Traffic_MAE.jpg" alt="result" style="width:45%" /> 
 
 #### Traffic Val Curve
-**Predict 720 steps and 96 steps (after data scale transform)**
+**Predict 720 steps and 96 steps ('OT' after data scale transform)**
 
 <img src="./figs/Traffic_val_curve_720.jpg" alt="result" style="width:45%" /> <img src="./figs/Traffic_val_curve_96.jpg" alt="result" style="width:45%" /> 
 
