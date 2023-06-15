@@ -63,5 +63,7 @@ This study shows that self-attention might not be necessary to learn the periodi
 
 [https://github.com/zhouhaoyi/Informer2020]( https://github.com/zhouhaoyi/Informer2020) 
 
+[https://github.com/ts-kim/RevIN]( https://github.com/ts-kim/RevIN)
+
 [https://github.com/HenryLiu0820/TiDE]( https://github.com/HenryLiu0820/TiDE) 
 
